@@ -283,12 +283,22 @@
       ]
     }
   ],
-  "comments": [
+  "credentials": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
+      "username": "user1",
+      "password": "test1",
+      "accessLevel": "user"
+    },
+    {
+      "username": "user2",
+      "password": "test2",
+      "accessLevel": "user"
+    },
+    {
+      "username": "user3",
+      "password": "test3",
+      "accessLevel": "admin"
+    }    
   ],
   "profile": {
     "name": "typicode"
